@@ -1,0 +1,17 @@
+{
+  "name": "svg-optimizer",
+  "version": "1.0.0",
+  "description": "CLI tool to optimize SVG files",
+  "main": "src/optimizer.js",
+  "bin": {
+    "svg-optimizer": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dzengi.com",
+  "license": "MIT",
+  "dependencies": {
+    "svgo": "^2.8.0"
+  }
+}
